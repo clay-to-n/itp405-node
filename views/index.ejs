@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <h1>DVD Search</h1>
+                <form class="form-inline" role="form" method="get" action="/dvds">
+                    
+                    <input type="text" class="form-control" name="title" placeholder="DVD Title">
+
+                    <select class="form-control" id="award" name="award">
+                        <option value="">Award</option>
+                        <option>Oscar</option>
+                        <option>Grammy</option>
+                    </select>
+
+                    <button class="btn btn-default" type="button submit">Search!</button>
+                
+                </form>
+            </div> 
+        </div>
+    </div>
+</body>
+</html>
